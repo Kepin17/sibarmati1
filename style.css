@@ -98,3 +98,46 @@ section .textbox-about {
   width: 50%;
   font-size: 20px;
 }
+
+.contact-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.contact-wrap h1 {
+  font-size: 2.5rem;
+  color: rgb(1, 28, 165);
+}
+
+.formgroup {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.formgroup input,
+.formgroup select,
+.formgroup textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.formgroup input:focus,
+.formgroup select:focus,
+.formgroup textarea:focus {
+  outline: none;
+  border-color: rgb(1, 28, 165);
+}
+
+.formgroup label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #555;
+  font-weight: 500;
+}
