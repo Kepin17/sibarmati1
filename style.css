@@ -58,8 +58,25 @@ header .img-header {
   justify-content: center;
 }
 
+.textbox p {
+  margin-top: 10px;
+}
+
 header .img-header img {
   width: 50%;
   height: 50%;
   object-fit: cover;
+}
+
+.button-wrapper button {
+  background: orange;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
 }
